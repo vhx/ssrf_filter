@@ -22,8 +22,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency('rspec', '~> 3.8.0')
   gem.add_development_dependency('webmock', '~> 3.5.1')
 
-  raise 'Unsupported version of ruby' unless major == 2
-
   if minor > 1
     gem.add_development_dependency('rubocop', '~> 0.65.0')
   elsif minor == 1
